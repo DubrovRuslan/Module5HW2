@@ -8,6 +8,16 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Compile Remove="Controllers\WeatherForecastController.cs" />
+      <Compile Remove="WeatherForecast.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="Controllers\WeatherForecastController.cs" />
+      <None Include="WeatherForecast.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     </ItemGroup>
 

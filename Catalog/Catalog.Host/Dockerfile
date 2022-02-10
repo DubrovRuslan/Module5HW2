@@ -15,5 +15,3 @@ ENTRYPOINT ["dotnet", "Catalog.Host.dll"]
 FROM nginx
 COPY static-html-directory /usr/share/nginx/html
 
-#FROM nginx
-#COPY nginx.conf /etc/nginx/nginx.conf
